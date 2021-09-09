@@ -1,4 +1,19 @@
-# Run this server
+# Run this server
+
+Check that you have permissions to execute `script.sh` or execute in terminal:
+```
+chmod 774 run.sh
+```
+
+Run:
+```
+./run.sh
+```
+To stop the server press `CTRL+C`
+
+---
+
+## Under the hood:
 
 Create an environment (first time only):
 ```
@@ -29,7 +44,7 @@ Response should be:
 
 >"Hello world!"
 
-### Stop the server
+## Stop the server
 
 Press CTRL+C and execute:
 ```
