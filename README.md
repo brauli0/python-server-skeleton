@@ -1,13 +1,20 @@
-Tests with these specs:
+# How to use
+The important file of this repo is `create-project.sh` and you only have to download it to create a new project from this skeleton. Usage:
+
+```
+create-project.sh [name]
+```
+
+## Run this server
+
+Tested with these specs:
 > macOS Big Sur 11.5.2 (20G95)
 
 > Python 3.9.7
 
 > pip 21.2.4
 
-# Run this server
-
-Check that you have permissions to execute `run.sh` or execute in terminal:
+Check that you have permissions to execute `bin/run.sh` or execute in terminal:
 ```
 chmod 774 bin/run.sh
 ```
