@@ -1,4 +1,4 @@
-from flask import Flask, request, abort
+from flask import Flask, abort
 from flask_restful import Resource, Api
 from flask_httpauth import HTTPTokenAuth
 from business import Business

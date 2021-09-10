@@ -9,19 +9,19 @@ Tests with these specs:
 
 Check that you have permissions to execute `run.sh` or execute in terminal:
 ```
-chmod 774 run.sh
+chmod 774 bin/run.sh
 ```
 
 Run:
 ```
-./run.sh
+bin/run.sh
 ```
 
 ## Check if it works
 
 In a new terminal, run:
 ```
-./test.sh
+bin/test.sh
 ```
 
 Or send a GET request to http://localhost:5000/helloworld with headers:
@@ -54,7 +54,7 @@ pip3 install -r requirements.txt
 ```
 Run server:
 ```
-python3 server.py
+python3 src/server.py
 ```
 
 ### Stop the server
